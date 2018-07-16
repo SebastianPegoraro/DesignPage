@@ -23,6 +23,14 @@
     padding-bottom: 20px;
 }
 
+.back-section {
+    background: #6AE162;
+}
+
+.ble{
+    font-size: 40px !important;
+}
+
 #logo{
     height: 90px;
     width: auto;
@@ -32,6 +40,3 @@
     margin-top: 10px;
 }
 
-#whoWeAre {
-    background: #0CC400;
-}
