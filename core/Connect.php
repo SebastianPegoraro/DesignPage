@@ -17,7 +17,7 @@ class Connect{
         $this->charset=$db_cfg["charset"];
     }
 
-    public function connect(){
+    public function connection(){
         if ($this->driver=="mysql" || $this->driver==null) {
             $con = new mysqli($this->host, $this->user, $this->pass, $this->database);
             $con->query("SET NAMES '".$this->charset."'");
